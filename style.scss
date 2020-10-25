@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F2F3;
+    font-family: 'Roboto';
+    height: 100vh;
+
+    table{
+        border-spacing: 0;
+        table-layout: fixed;
+        text-align: center;
+        position: fixed;
+   
+        thead{
+            background-color: #178cc2;
+            tr{
+                width: 100%;
+                th{
+                color: #fff;
+                width: 100%;
+                padding: 1rem;
+                font-family: sans-serif;
+                border: none;
+                }
+            }
+        }
+        tbody{
+                tr{
+                    padding: 1rem;
+                    td{
+                        padding: 1rem;
+                        // color: red;
+                    }
+                }
+                tr:nth-child(even){
+                    background-color: #F3F2F3;
+                }
+                tr:nth-child(odd){
+                    background-color: #eedfdf;
+                }
+            }
+    }
+}

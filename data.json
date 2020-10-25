@@ -1,0 +1,32 @@
+let myArray =[
+    {
+        "name": "Mickael",
+        "age": 30,
+        "birthdate": "11/10/1989"
+    },
+    {
+        "name": "Mila",
+        "age": 32,
+        "birthdate": "11/10/1989"
+    },
+    {
+        "name": "Paul",
+        "age": 29,
+        "birthdate": "11/10/1989"
+    },
+    {
+        "name": "Dennis",
+        "age": 25,
+        "birthdate": "11/10/1989"
+    },
+    {
+        "name": "Tim",
+        "age": 27,
+        "birthdate": "11/10/1989"
+    },
+    {
+        "name": "Erik",
+        "age": 24,
+        "birthdate": "11/10/1989"
+    }
+]
